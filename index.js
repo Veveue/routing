@@ -44,3 +44,4 @@ router.setup({  
 	console.log('default router');
 });
 router.start();
+<body onhashchange="router.start()"></body>
